@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 /**
- * Description: this is c progrem 
-*/
-int main (void) 
+ * main - Entry point of the program
+ *
+ * Description: This is a C program that prints a message.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
