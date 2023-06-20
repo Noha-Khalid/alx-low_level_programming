@@ -1,17 +1,18 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * Description: This is c program .
+ * print_alphabet_x10 - Prints the alphabet 10 times.
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-      int i , ch ;
-      
-      for (i=0 ; i <= 9 ; i++)
-     {
-         for (ch ='a' ; ch <= 'z' ; ch++)
-   
-      _putchar(ch);
-      _putchar('/n') ;
-     }
+	int i, ch;
+
+	for (i = 0; i <= 9; i++)
+	{
+		for (ch = 'a'; ch <= 'z'; ch++)
+		{
+			_putchar(ch);
+		}
+		_putchar('\n');
+	}
 }
