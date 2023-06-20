@@ -1,14 +1,13 @@
-#include <stdio.h>
+#include <main.h>
 
 /**
- * main - Entry point of the program
- *
- * Description: This program prints a message to the console.
- *
- * Return: 0 (Success)
+ * Description: This is c program .
  */
 void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+      int ch ;
+      
+      for (ch ='a' ; ch <= 'z' ; ch++)
+      _putchar(ch);
+      _putchar('/n') ;
 }
