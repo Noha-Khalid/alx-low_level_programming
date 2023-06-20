@@ -3,7 +3,7 @@
 /**
  * Description: This is c program .
  */
-void print_alphabet(void)
+int main(void)
 {
       int ch ;
       
