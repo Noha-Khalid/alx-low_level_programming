@@ -1,13 +1,15 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * Description: This is c program .
+ * Description: This is c program.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-      int ch ;
-      
-      for (ch ='a' ; ch <= 'z' ; ch++)
-      _putchar(ch);
-      _putchar('/n') ;
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		_putchar(ch);
+	}
+	_putchar('\n');
 }
