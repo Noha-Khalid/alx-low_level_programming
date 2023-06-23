@@ -1,28 +1,31 @@
-#include <main.h>
-/**
-* c program
-* Return: 0
-*/
+#include "main.h"
+#include <stdio.h>
 
+/**
+ * main - Entry point of the program.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-int n;
+	int n;
 
- for (n =1 ; n <= 100; n++)
- {
-     if (n % 3 === && !n % 5 == 0)
-      printf("fizz");
-      else if (n % 3 === && n % 5 == 0)
-      printf("fizzBuzz");
-      else if (!n % 3 === && n % 5 == 0)
-      printf("Buzz");
-      else 
-        printf("%d" , n);
-        
-        if(num != 100)
-        printf(" ");
-        else 
-          printf("\n");
- }
- return(0);
+	for (n = 1; n <= 100; n++)
+	{
+		if (n % 3 == 0 && n % 5 != 0)
+			printf("Fizz");
+		else if (n % 3 == 0 && n % 5 == 0)
+			printf("FizzBuzz");
+		else if (n % 3 != 0 && n % 5 == 0)
+			printf("Buzz");
+		else
+			printf("%d", n);
+
+		if (n != 100)
+			printf(" ");
+		else
+			printf("\n");
+	}
+
+	return (0);
 }
