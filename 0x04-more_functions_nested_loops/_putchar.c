@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * Description: This is c program .
+ * _putchar - Writes a character to stdout.
+ * Return: On success 1.
  */
 int _putchar(char c)
 {
