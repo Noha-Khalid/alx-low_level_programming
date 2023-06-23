@@ -4,7 +4,7 @@
 * Return: 0
 */
 
-void more_numbers(void);
+void more_numbers(void)
 {
    int num , r , i ;
    for (r = 1; r <= 10; r++ )
