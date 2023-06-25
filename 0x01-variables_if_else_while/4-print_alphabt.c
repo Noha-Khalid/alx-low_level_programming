@@ -3,7 +3,7 @@
 /**
  * main - Entry point of the program
  *
- * Description: This program prints the lowercase alphabets excluding 'e' and 'q'.
+ * Description: This program prints .
  *
  * Return: 0 on success
  */
