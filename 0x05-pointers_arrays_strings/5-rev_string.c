@@ -13,10 +13,6 @@ char temp;
 
     /* Find the length of the string */
 for (len = 0; s[len] != '\0'; len++)
-{
-        /* Empty loop body */
-}
-
     /* Swap characters from the beginning and end of the string */
 for (i = 0; i < len / 2; i++)
 {
