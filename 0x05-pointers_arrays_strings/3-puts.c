@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _putchar - Writes a character to stdout.
- * @c: The character to be written.
+ * _puts - Prints a string followed by a new line to stdout.
+ * @str: Pointer to the string to be printed.
  *
- *         On error, returns -1 and sets errno.
+ * Return: void
  */
 void _puts(char *str)
 {
