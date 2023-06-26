@@ -4,20 +4,19 @@
 
 int main(void)
 {
-int sum = 0;
+int sum ;
 char c;
 
-srand(time(0));
+srand(time(NULL));
 
-do
+while (sum <= 2772)
 {
-c = rand() % 256;
+c = rand() % 128;
 sum += c;
 putchar(c);
-} while (sum <= 2772);
+} 
 
-putchar('\n');
-putchar(sum % 256);
+putchar(2722 - sum);
 
 return 0;
 }
