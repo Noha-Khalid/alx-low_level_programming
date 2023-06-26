@@ -13,8 +13,8 @@ int counter;
 counter = 0;
 while (*s != '\0') /* Iterate until the end of string */
 {
-    counter++;
-    s++;
+counter++;
+s++;
 }
 return counter;
 }
