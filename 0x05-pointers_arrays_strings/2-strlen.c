@@ -16,5 +16,5 @@ while (*s != '\0') /* Iterate until the end of string */
 counter++;
 s++;
 }
- return counter;
+ return (counter);
 }
