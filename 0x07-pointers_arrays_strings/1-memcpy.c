@@ -1,4 +1,4 @@
-#include "n^in.h"
+#include "main.h"
 
 /**
  * _ncpy - Copies a string.
@@ -8,15 +8,15 @@
  *
  * Return: Pointer to the destination string (dest).
  */
-char *_ncpy(char *dest, char *src, unsigned int n)
+char *_ncpy(char *dest, const char *src, unsigned int n)
 {
-unsigned int itr;
+	unsigned int itr;
 
-for (itr = 0; itr < n && src[itr] != '\0'; itr++)
-dest[itr] = src[itr];
+	for (itr = 0; itr < n && src[itr] != '\0'; itr++)
+		dest[itr] = src[itr];
 
-for (; itr < n; itr++)
-dest[itr] = '\0';
+	for (; itr < n; itr++)
+		dest[itr] = '\0';
 
-return (dest);
+	return dest;
 }
