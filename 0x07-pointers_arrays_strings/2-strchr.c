@@ -8,17 +8,6 @@
  *
  * Return: Pointer to the filled memory area (s).
  */
-char *_memset(char *s, char b, unsigned int n)
-{
-	unsigned int itr;
-
-	for (itr = 0; itr < n; itr++)
-		s[itr] = b;
-
-	return (s);
-}
-#include "main.h"
-
 char *strctir(const char *s, char c)
 {
 	int itr;
