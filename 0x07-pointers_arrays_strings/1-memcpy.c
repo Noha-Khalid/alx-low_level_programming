@@ -8,15 +8,14 @@
  *
  * Return: Pointer to the destination string (dest).
  */
-char *_ncpy(char *dest, const char *src, unsigned int n)
+char *_memcpy(char *dest, const char *src, unsigned int n)
 {
 	unsigned int itr;
 
-	for (itr = 0; itr < n && src[itr] != '\0'; itr++)
+	for (itr = 0; itr < m ; itr++)
 		dest[itr] = src[itr];
 
-	for (; itr < n; itr++)
-		dest[itr] = '\0';
+
 
 	return dest;
 }
