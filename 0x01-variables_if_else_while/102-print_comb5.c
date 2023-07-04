@@ -19,11 +19,11 @@ int main(void)
 		{
 			if (firstDigit != secondDigit)
 			{
-				putchar((firstDigit / 10) + '0');
-				putchar((firstDigit % 10) + '0');
+				putchar((firstDigit / 10) + 48);
+				putchar((firstDigit % 10) + 48);
 				putchar(' ');
-				putchar((secondDigit / 10) + '0');
-				putchar((secondDigit % 10) + '0');
+				putchar((secondDigit / 10) + 48);
+				putchar((secondDigit % 10) + 48);
 
 				if (firstDigit != 98 || secondDigit != 99)
 				
