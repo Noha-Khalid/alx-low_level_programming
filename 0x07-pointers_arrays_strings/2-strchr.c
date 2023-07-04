@@ -8,15 +8,15 @@
  *
  * Return: Pointer to the filled memory area (s).
  */
-char *strctir(const char *s, char c)
+char *strchr(char *s, char c)
 {
 	int itr;
 
-	for (itr = 0; s[itr] != '\0'; itr++)
+	for (itr = 0; s[itr] >= '\0'; itr++)
 	{
 		if (s[itr] == c)
-			return ((char *)&s[itr]);
+			return (s + itr);
 	}
 
-	return NULL;
+	return ('\0');
 }
