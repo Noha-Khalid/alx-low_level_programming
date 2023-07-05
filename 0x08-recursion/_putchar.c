@@ -1,5 +1,5 @@
 #include <unistd>
-
+int _putchar(char c);
 /*
 ***
 */
