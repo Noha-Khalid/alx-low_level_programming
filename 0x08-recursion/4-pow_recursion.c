@@ -8,5 +8,5 @@ if (y < 0)
 {
   return(-1);
 }
-return _pow_recursion(pow(5 , 6));
+return( x * _pow_recursion(x , y-1));
 }
