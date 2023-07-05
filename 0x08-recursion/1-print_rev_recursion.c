@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-*  Prints a string reverse recursively followed by a new line.
-*
+*_print_rev_recursion  
+*Prints a string reverse recursively followed by a new line.
 * @s: The string to be printed.
 *
 * Description:
-* prints each character of the input string reverse, @s,
+*_print_rev_recursion prints each character reverse, @s,
 * followed by a new line character. If the string is empty (reached the null
 * terminator), it prints only the new line character.
 *
