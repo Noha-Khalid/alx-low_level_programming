@@ -1,16 +1,10 @@
 #include "main.h"
 /**
- * _print_rev_recursion - Prints a string in reverse recursively.
+ * _strlen_recursion - Returns the length of a string recursively.
  *
- * @s: The string to be printed in reverse.
+ * @s: The string to find the length of.
  *
- * Description:
- *     This function prints the characters of the input string @s in reverse
- *     order recursively. It starts by calling itself with the next character
- *     in the string until it reaches the null terminator. Then, it prints
- *     each character in reverse order.
- *
- * Return: None.
+ * Return: The length of the string.
  */
 int _strlen_recursion(char *s)
 {
@@ -21,7 +15,6 @@ int _strlen_recursion(char *s)
     }
     else
     {
-        /* Recursive call to find the length of the remaining string */
-        return _strlen_recursion(s + 1) + 1;
-    }
+return _strlen_recursion(s + 1) + 1;
+}
 }
