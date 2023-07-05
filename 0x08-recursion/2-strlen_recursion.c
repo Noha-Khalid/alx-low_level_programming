@@ -13,9 +13,15 @@
  * Return: None.
  */
 int _strlen_recursion(char *s)
-int n;
-if (*s > '\0')
 {
-   return _strlen_recursion(s + 1) + 1;
+    /* Base case: if the current character is the null terminator */
+    if (*s == '\0')
+    {
+        return 0;
+    }
+    else
+    {
+        /* Recursive call to find the length of the remaining string */
+        return _strlen_recursion(s + 1) + 1;
+    }
 }
-return (0);
