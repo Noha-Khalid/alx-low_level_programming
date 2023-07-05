@@ -2,11 +2,13 @@
 
 void _puts_recursion(char *s)
 {
-    printf("%s\n", s); // Print the string s
-}
-
-int main(void)
+ if ( *s == '\0' )
 {
-    _puts_recursion("Puts with recursion");
-    return 0;
+   _putchar('\n');
+}
+else 
+{
+   _putchar(*s);
+    _puts_recursion(s + 1);
+}
 }
