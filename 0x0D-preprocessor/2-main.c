@@ -1,4 +1,4 @@
-#inslude <stdio.h>
+#include <stdio.h>
 /*
 ** main - print input file 
 ** return always (0)
