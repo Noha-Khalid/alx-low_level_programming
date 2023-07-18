@@ -3,4 +3,4 @@
 
 #define SUM(x, y) ((x) + (y))
 
-#endif
+#endif /* _FUNCTION_LIKE_MACRO_H */
